@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+.logo{
+    color: rgba(18, 54, 33);
+}
+.bg-cover{
+    background-size: cover;
+}
+.gray{
+    color: rgb(116, 118, 118);
+    
+}
+.box-on-slids{
+    background-color:rgba(225, 224, 225,0.5);
+    color: black;
+    max-width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.green{
+    color: rgb(30, 53, 5);
+}
+.bg{
+    background-image:cover;
+    width: 100%;
+}
+.g{
+    color: green;
+}
+.box{
+    position: absolute;
+    background-color:rgb(225, 224, 225,);
+    max-width: 700px;
+    max-height: 700px;
+    top: 100px;
+    left: 500px;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    vertical-align: center;
+}
+.link{
+    text-decoration: none;
+}
+.ee{
+    height: 500px;
+    position: relative;
+    top: -750px;
+    background-color: #fff;
+}
+.bg-card-color{
+    background-color:rgb(243, 236, 236) !important
+}
+.black{
+    color: black;
+}
+.width-img{
+    max-width:100px;
+    height: 100px;
+}
+.w-200{
+    width: 130px;
+    height: 130px;
+}
+
+.width-photo{
+    max-width: 60px;
+    height: 60px;
+}
+
+.wrapper {
+    height: 100%;
+}
+.w-300{
+    max-width: 220px;
+    max-height: 220px;
+    
+}
+ 
+.fixed-bg {
+    height: 100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+footer{
+    
+    position: fixed;
+    bottom:0;
+    z-index: 1;
+    width: 100%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin400px{margin-bottom:340px ;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100px vh;
+    z-index: 10;
+    background-color: #fff;
+}
+.brown{
+    background-color:rgb(192, 200, 200);
+    border-radius: 15px;
+}
+.b-30{
+    border-radius: 30px;
+}
+.pink{
+    background-color: rgb(201, 167, 124);
+}
+.dark-gray{
+    background-color: gray;
+}
+.h-700px{
+    height: 700px;
+}
+
+
+
+
+@media (max-width:992px){
+    .card-group{
+        
+        display: block;
+        background-color: transparent
+    }
+    .sec-list-group{
+        background-color: transparent;
+
+    }
+    .card-1{
+        width: 500px;
+    }
+}
+
+@media (max-width:720px){
+    .card-1{
+        width: 400px;
+    }
+    .card-2{
+        width: 400px;
+    }
+ 
+    .hide{
+        visibility: hidden;
+        display: none;
+    } 
+}
+@media (max-width:540px){
+    .card-1{
+        width: 300px;
+    } 
+    .card-2{
+        width: 300px;
+    } 
+    .hide{
+        display: none;
+    }   
+}
+
+
+
+@media (min-width:993px){
+    .hidden{
+        display: none;
+        visibility: hidden;
+    }
+    
+}
+@media (max-width:1023px)and(min-width:993px){
+    .h-700px{
+        height: 700px;
+    }   
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+section.h{
+    font-family: 'Poppins', sans-serif; 
+    background:#fff;
+    padding:0rem 1rem;
+}
+h2.h {
+  text-align: center;
+  padding: 2rem;
+  font-size: 3.5rem;
+  margin-bottom:3rem;
+} 
+/* Slider */ 
+.slick-slide {
+  margin: 0px 0px;
+} 
+.slick-slide img {
+  width: 100%;
+}
+
+                
